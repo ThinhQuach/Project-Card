@@ -60,6 +60,7 @@ public class CardTrick {
             System.out.println("Your card is not in the magic hand.");
         }
         
+        //Lucky Card
         Card luckyCard = new Card();
         luckyCard.setValue(9);
         luckyCard.setSuit("Diamonds");
